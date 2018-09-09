@@ -16,7 +16,7 @@ class Application
 
         static byte reset_pin;
     protected:
-        bool isReset();
+        static bool isReset();
     private:
         Application() {  };
 };
